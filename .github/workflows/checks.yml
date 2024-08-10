@@ -52,7 +52,11 @@ jobs:
       matrix:
         include:
           - ruby: '3.2'
+            rails: '7.2'
+          - ruby: '3.2'
             rails: '7.1'
+          - ruby: '3.1'
+            rails: '7.2'
           - ruby: '3.1'
             rails: '7.1'
           - ruby: '3.0'
@@ -87,6 +91,8 @@ jobs:
             rails: '7.0'
           - ruby: 'jruby'
             rails: '6.1'
+          - ruby: 'truffleruby'
+            rails: '7.2'
           - ruby: 'truffleruby'
             rails: '7.1'
           - ruby: 'truffleruby'
